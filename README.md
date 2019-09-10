@@ -36,7 +36,7 @@ npm run local (访问本地后台系统，需运行node-elm后台系统)
 # 部分截图
 
 
-<img src="https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/manage_home.png"/>
+<img src="https://github.com/StorySpeaker/Fconfig/blob/master/screenshots/projectshot.jpg"/>
 
 
 
