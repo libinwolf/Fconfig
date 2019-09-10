@@ -8,7 +8,7 @@
 		<el-dropdown @command="handleCommand" menu-align='start'>
 			<img :src="baseImgPath + adminInfo.avatar" class="avator">
 			<el-dropdown-menu slot="dropdown">
-				<el-dropdown-item command="home">首页</el-dropdown-item>
+				<el-dropdown-item command="home">个人中心</el-dropdown-item>
 				<el-dropdown-item command="signout">退出</el-dropdown-item>
 			</el-dropdown-menu>
 		</el-dropdown>
@@ -76,5 +76,9 @@
 	}
 	.el-dropdown-menu__item{
         text-align: center;
-    }
+	}
+	
+	.welcome{
+		margin-right: 10px;
+	}
 </style>
