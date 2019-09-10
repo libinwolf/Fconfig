@@ -5,17 +5,7 @@
 
 
 # 说明
-
->  如果对您对此项目有兴趣，可以点 "Star" 支持一下 谢谢！ ^_^
-
->  或者您可以 "follow" 一下，我会不断开源更多的有趣的项目
-
->  开发环境 macOS 10.12.4  nodejs 6.10.0
-
->  如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
-
->  传送门：[前端项目地址](https://github.com/bailicangdu/vue2-elm)  、 [后台系统地址](https://github.com/bailicangdu/node-elm)  、 [原生APP项目地址](https://github.com/bailicangdu/RN-elm)
-
+西蒙智能家居为提供更方便的酒店系统参数配置，以及平台监控，对酒店控制系统参数配置工具客户端进行重新整合并移植至Web端，可使得用户实时实地进行快速简便高效的参数配置及导入导出。平台监控方面，我们将提供展板进行展示，展示内容有项目统计及分布情况、设备在线离线统计及分布情况以及服务器的使用情况等。配置方面，将对原配置工具功能进行移植，并改善。西蒙智能家居致力于打造舒适、便捷、易操作的平台，为用户提供更好、更高效、更高质量的体验。
 
 
 ## 技术栈
@@ -43,45 +33,11 @@ npm run local (访问本地后台系统，需运行node-elm后台系统)
 ```
 
 
-# 效果演示
-
-#### (可在后台管理系统添加商铺，食品等数据，并在前端地址查看效果)
-
-[查看效果请戳这里](http://cangdu.org/manage/)
-
-
-### 前端项目网址
-[前端网址请戳这里](http://cangdu.org/elm)（请用chrome手机模式预览）
-
-###### 移动端扫描下方二维码
-
-![](https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/ewm.png)
-
-
-# 功能列表
-
-- [x] 登陆/注销 -- 完成
-- [x] 添加商铺 -- 完成
-- [x] 添加商品 -- 完成
-- [x] 数据展示 -- 完成
-- [x] 管理用户 -- 完成
-- [x] 管理商铺 -- 完成
-- [x] 食品管理 -- 完成
-- [x] 权限验证 -- 完成
-- [x] 管理员设置 -- 完成
-- [x] 图表📈 -- 完成
-- [x] 富文本编辑器 -- 完成
-
-
 # 部分截图
 
 
 <img src="https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/manage_home.png"/>
 
-<img src="https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/manage_shop.png"/>
 
 
-# License
-
-[GPL](https://github.com/bailicangdu/vue2-manage/blob/master/COPYING)
 
