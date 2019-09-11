@@ -19,7 +19,7 @@ vue2 + vuex + vue-router + webpack + ES6/7 + less + element-ui
 ```
 git clone https://github.com/StorySpeaker/Fconfig.git  
 
-cd vue2-manage  
+cd Fconfig  
 
 npm install 或 yarn(推荐)
 
