@@ -38,21 +38,21 @@
 			...mapActions(['getAdminData']),
 			async handleCommand(command) {
 				if (command == 'home') {
-					this.$router.push('/manage');
+					this.$router.push('/userInfo');
 				}else if(command == 'signout'){
-					const res = await signout()
-					if (res.status == 1) {
+					//const res = await signout()
+					//if (res.status == 1) {
 						this.$message({
 	                        type: 'success',
 	                        message: '退出成功'
 	                    });
 	                    this.$router.push('/');
-					}else{
-						this.$message({
-	                        type: 'error',
-	                        message: res.message
-	                    });
-					}
+					// }else{
+					// 	this.$message({
+	                //         type: 'error',
+	                //         message: res.message
+	                //     });
+					// }
 				}
 			},
 		}
