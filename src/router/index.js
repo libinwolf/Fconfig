@@ -10,41 +10,46 @@ const projectManage = r => require.ensure([], () => r(require('@/page/projectMan
 const moduleManage = r => require.ensure([], () => r(require('@/page/moduleManage')), 'moduleManage');
 const userManage = r => require.ensure([], () => r(require('@/page/userManage')), 'userManage');
 const systemSet = r => require.ensure([], () => r(require('@/page/systemSet')), 'systemSet');
+const userInfo = r => require.ensure([], () => r(require('@/page/userInfo')), 'userInfo');
 
-const routes = [
-	{
-		path: '/',
-		component: login
-	},
-	{
-		path: '/manage',
-		component: manage,
-		name: '',
-		children: [{
-			path: '',
-			component: home,
-			meta: [],
-		},{
-			path: '/projectManage',
-			component: projectManage,
-			meta: ['项目管理'],
-		},{
-			path: '/moduleManage',
-			component: moduleManage,
-			meta: ['元件管理'],
-		},{
-			path: '/userManage',
-			component: userManage,
-			meta: ['用户管理'],
-		},{
-			path: '/systemSet',
-			component: systemSet,
-			meta: ['系统设置'],
-		}]
-	}
+
+const routes = [{
+        path: '/',
+        component: login
+    },
+    {
+        path: '/manage',
+        component: manage,
+        name: '',
+        children: [{
+            path: '',
+            component: home,
+            meta: [],
+        }, {
+            path: '/projectManage',
+            component: projectManage,
+            meta: ['项目管理']
+        }, {
+            path: '/moduleManage',
+            component: moduleManage,
+            meta: ['元件管理']
+        }, {
+            path: '/userManage',
+            component: userManage,
+            meta: ['用户管理']
+        }, {
+            path: '/systemSet',
+            component: systemSet,
+            meta: ['系统设置']
+        }, {
+            path: '/userInfo',
+            component: userInfo,
+            meta: ['个人中心']
+        }]
+    }
 ]
 
 export default new Router({
-	routes,
-	strict: process.env.NODE_ENV !== 'production',
+    routes,
+    strict: process.env.NODE_ENV !== 'production',
 })
